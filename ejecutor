@@ -1,0 +1,16 @@
+public class ejecutor {
+
+    //ISP
+    public static void main(String[] args) {
+        
+        printer p = new inkjettinter();
+        p.print();
+        scaner s = new documentoescaner();
+        s.scan();
+        multifuncionalmachine m = new multifuncionalmachine();
+        m.print();
+        m.scan();
+    }
+    
+}
+//ahora cada clase implementa solo lo que necesita cumpliendo el ISP

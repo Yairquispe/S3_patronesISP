@@ -1,0 +1,7 @@
+public class inkjettinter implements printer{
+
+    @Override
+    public void print() {
+        System.out.println("imprimiendo inkjet");    }
+    
+}

@@ -1,0 +1,21 @@
+package ejercicioisp_bien;
+
+/**
+ *
+ * @author LAB-USR-LNORTE
+ */
+public class multifuncionalmachine implements printer,scaner,fax{
+
+    @Override
+    public void print() {
+        System.out.println("imprimiendo...");    }
+
+    @Override
+    public void scan() {
+        System.out.println("escanenado..."); 
+    
+    }
+    
+    
+    
+}

@@ -1,0 +1,8 @@
+public class documentoescaner implements scaner{
+
+    @Override
+    public void scan() {
+        System.out.println("el documento se esta escaneando");    }
+
+
+}
